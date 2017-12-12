@@ -9,6 +9,7 @@ void setup() {
 }
 
 // the loop function runs over and over again forever
+// A função loop é executada repetidamente.
 void loop() {
   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(5000);                       // wait for a second
